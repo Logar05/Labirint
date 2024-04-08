@@ -1,0 +1,118 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('wlp.jpg');
+    font-family: 'Press Start 2P', cursive;
+    color: #FFD700; 
+}
+.header h1 {
+    color: #FFD700; 
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px #000000;
+    margin: 20px 0;
+	
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.labcontain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#scoreDisplay {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
+}
+
+.labirint {
+    position: relative;
+    width: 582px; 
+    height: 582px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mazeCanvas{
+	position: absolute;
+	margin:auto;
+	z-index: 1;
+
+}
+#drugiCanvas{
+position: absolute;
+z-index: 2;
+}
+
+#bgCanvas{
+	position: absolute;
+	z-index: 0;
+	height: 582;
+	width: 582;
+	background-color: black;
+}
+
+#crta{
+	position: absolute;
+	
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	width:100%;
+}	
+
+.arcade-popup {
+    background-color: #000000;
+    border: 2px solid #0095DD; 
+}
+
+.arcade-title {
+    color: #FFD700; 
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.arcade-content {
+    color: #FFFFFF; 
+    font-family: 'Press Start 2P', cursive;
+}
+
+.arcade-confirm-button {
+    background-color: #0095DD; 
+    color: #FFFFFF; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #006fad; 
+}
+
+.arcade-confirm-button:hover {
+    background-color: #007bb5;
+}
+
+.arcade-icon {
+    color: #FFD700; 
+}
